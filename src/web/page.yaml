@@ -1,0 +1,12 @@
+# The irrigation controller's page; see os/web/README.md for the format.
+
+text: text.yaml
+
+config:                      # the Config tab; General and Server are always there
+  telegram: on               # says when the watering is done
+  calendar:                  # calendar events run water/stop
+    id_example: garden
+    allowed_example: water stop
+
+tabs:                        # the row of tabs after Config; Firmware stays last
+  firmware: on
