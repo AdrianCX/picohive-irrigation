@@ -1,0 +1,92 @@
+# The irrigation controller's own wording, per skin. Only what differs from
+# the defaults in os/web; build_web_page.py --explain lists every override.
+
+title:
+  cartoon: Garden Waterer
+  clean: Irrigation Controller
+  xeno: Deep Root — irrigation node
+  fallout: Water Station 7 — Terminal Link
+app.title:
+  cartoon: Garden Waterer
+  clean: Irrigation Controller
+  xeno: Deep Root
+  fallout: Water Station 7
+app.tagline:
+  clean: Opens a valve for as long as you ask, and tells you when the watering is done.
+  xeno: one line · one valve · something down there is drinking
+cal.hint:
+  cartoon: 'Name an event <device id>/water/1/10m and valve 1 waters for 10 minutes when it starts! Only commands in Allowed run, space separated: water, stop — or water/1 for just valve 1. Use the calendar''s secret iCal address.'
+  clean: 'An event titled <device id>/water/1/10m opens valve 1 for 10 minutes when it starts. Only commands on the allowed list run, space separated: water, stop — or water/1 to allow only valve 1. Use the calendar''s secret address in iCal format.'
+  xeno: 'Mark the almanac with <true name>/water/1/10m and when that hour comes valve 1 drinks for ten minutes. Only the rites named here are obeyed, space between them: water, stop — or water/1 for a single valve. The almanac is its secret iCal address.'
+  fallout: 'Roster entries titled <designation>/water/1/10m execute at start time: valve 1, ten minutes. Only authorized orders execute, space separated: water, stop — or water/1 to restrict to one valve. Feed is the private iCal address.'
+upg.hint:
+  cartoon: Upload .uf2.encrypted file to evolve the waterer.
+toast.contact:
+  cartoon: Wired in! The garden is listening.
+  xeno: Contact. Something on the other end is still drinking.
+toast.reconnect:
+  cartoon: Re-summoning the sprinklers...
+
+# What the blackout says, and the lines that drift by at the bottom: this
+# device's, instead of the defaults. Modern (clean) says what Original (cartoon) does.
+lost:
+- the line is dry
+- no reply
+- still here
+- nobody is coming
+- it closed the valve
+- who is reading this
+narration:
+  cartoon:
+  - Waiting patiently to give everything a nice long drink. 💧
+  - One little valve, one number of minutes. That is the whole trick!
+  - When the watering is done, your phone buzzes. Magic! ✨
+  - No more dragging the hose around. It has got this.
+  - 'Fun fact: this whole thing runs on a very small, very proud chip.'
+  - Mornings are the best time to water. Less evaporation! 🌞
+  - Wi-Fi connected, valve closed, everything exactly where it should be.
+  - Firmware update? Brave! It will be right back, promise. 🚀
+  - Deep and occasional beats little and often. The roots agree. 🌱
+  - Garden watered, message sent, nobody had to remember anything.
+  - It sips power between waterings. You could forget this thing exists!
+  - It never gets bored of waiting for its turn. 🌟
+  - Thanks for stopping by. Have a lovely day! 👋
+  - You are doing great. The little chip agrees.
+  - Hello from a very small board that is very glad you stopped by.
+  xeno:
+  - the valve has been closed since the last cold start.
+  - it opens for the minutes you give it. it does not ask what for.
+  - the water goes down. nothing reports back on where it ends up.
+  - roots find the wet before you find the leak.
+  - something on the carrier band answered before you called.
+  - you will stop checking the soil. it will not.
+  - the line holds pressure all night. nobody is awake to hear it.
+  - no one has asked this device for anything in 400 days.
+  - it does not know what a garden is. it knows open and closed.
+  - the ground is never finished drinking. it only stops asking.
+  - you are 4.2 light-seconds from the nearest witness.
+  - the last operator set it for four minutes and never came back.
+  - there is a reservation at dorsia. there has always been.
+  - it moves water on one pin. that is all it was ever given.
+  - every cycle ends dry. the device is only there for the closing.
+  - somewhere the same valve is opening onto nothing at all.
+  - it has watered ground that grew nothing. that went unreported.
+  - the line does not sleep. it stops, which is a different arrangement.
+  - you asked it to water and to tell you. it never asks back.
+  fallout:
+  - the valve has been closed since the last cold start.
+  - the unit opens one line at a time. it has opened none today.
+  - mains pressure drifts through the afternoon. it always has.
+  - nothing has queried this unit in 400 days. it waters anyway.
+  - the uplink answers on schedule and has never once said anything.
+  - somebody chalked a duration on this wall and then stopped counting.
+  - the alert goes out over the wire. whether it arrives is not measured here.
+  - the concrete was rated for fifty years. it was poured well before that.
+  - there is no relief scheduled. there was never a schedule.
+  - the generator runs four hours a day. nobody set that. it settled there.
+  - the run time was set by hand. by whom is not recorded.
+  - the cistern is lower than it was. that is not the same as empty.
+  - the plot outside still gets its minutes. nobody harvests it.
+  - the east wall is damp to the touch. it has been damp for years.
+  - the command channel is open and has been open. command has not been on it.
+  - the ROM will outlive the operator. that was in the specification.

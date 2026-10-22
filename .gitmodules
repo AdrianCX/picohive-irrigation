@@ -1,0 +1,4 @@
+[submodule "os"]
+	path = os
+	url = git@github.com:AdrianCX/picohive-firmware.git
+	branch = module
